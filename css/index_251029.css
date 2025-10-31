@@ -1,0 +1,319 @@
+@charset "utf-8";
+
+/* index.css */
+
+/* 
+구글 웹폰트
+
+1) 영문
+Use a value from 300 to 900
+font-family: "Merriweather", serif;
+
+2) 한글
+font-family: "Nanum Gothic", sans-serif;
+font-weight: 400 | 700 | 800;
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    width: 100%;
+}
+
+header .top-header {
+    height: 40px;
+    background-color: #ccc
+}
+
+header .top-header .menu {
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+header .top-header .menu ul {
+    float: right;
+}
+
+header .top-header .menu ul li {
+    line-height: 40px;
+    float: left;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+header .top-header .menu ul .bean {
+    width: 40px;
+    height: 40px;
+
+}
+
+header .top-header .menu ul .bean span {}
+
+header .bottom-header {
+    height: 100px;
+}
+
+header .bottom-header .inner-header {
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header .bottom-header .inner-header .logo {
+    float: left;
+}
+
+header .bottom-header .inner-header h1 a {
+    width: 93px;
+    height: 69px;
+    background-image: url(../img/logo.png);
+    font-size: 0;
+}
+
+header .bottom-header .inner-header .gnb {
+    margin-left: 100px;
+    float: left;
+}
+
+header .bottom-header .inner-header .gnb ul {}
+
+header .bottom-header .inner-header .gnb ul li {
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 75px;
+    padding: 10px;
+}
+
+header .bottom-header .inner-header .gnb ul li a:hover {
+    color: rgb(243, 130, 0);
+}
+
+header .bottom-header .inner-header .gnb ul li a {}
+
+header .bottom-header .inner-header .search {
+    float: right;
+}
+
+header .bottom-header .inner-header .search a {}
+
+section {
+    width: 100%;
+}
+
+main .main {}
+
+main .main img {
+    width: 100%;
+    display: block;
+}
+
+main .sub-main {}
+
+main .sub-main img {
+    width: 100%;
+    display: block;
+}
+
+.section1 .pick {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.section1 .pick h3 {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(243, 130, 0);
+    margin: 40px 0;
+}
+
+.section1 .pick ul {}
+
+.section1 .pick ul li {
+    width: 21%;
+    margin: 0 2%;
+    float: left;
+    text-align: center;
+}
+
+.section1 .pick ul li a {}
+
+.section1 .pick ul li h4 {
+    margin-bottom: 10px;
+}
+
+.section1 .pick ul li p {
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.section1 .pick ul li div p:last-child {
+    color: rgb(243, 130, 0);
+}
+
+.section1 .new {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.section1 .new h3 {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(243, 130, 0);
+    margin: 40px 0;
+}
+
+.section1 .new ul {}
+
+.section1 .new ul li {
+    width: 32%;
+    margin-left: 2%;
+    float: left;
+}
+
+.section1 .new ul li:last-child {
+    margin-left: 0;
+}
+
+.section1 .new ul li a {}
+
+.section1 .new ul li a img {}
+
+.section1 .new ul li p {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(243, 130, 0);
+}
+.section2 {
+    /* padding: 50px 0; */
+    background-color: rgb(124, 81, 161);
+}
+.section2 .sns {
+    width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.section2 .sns  {}
+
+.section2 .sns .sns-title {
+    padding: 24px;
+    text-align: center;
+    
+    color: #fff;
+}
+
+.section2 .sns .sns-title p {
+    display: inline-block;
+    font-size: 32px;
+
+}
+
+.section2 .sns ul {}
+
+.section2 .sns ul li {
+    width: 16.6666%;
+    float: left;
+}
+
+.section2 .sns ul li a {}
+
+.section2 .sns ul li a img {
+    width: 100%;
+    display: block;
+}
+.section2 .sns .insta {
+    padding: 50px 0;
+    text-align: center;
+    
+}
+.section2 .sns .insta a {
+    padding: 10px 50px;
+    background-color: rgb(243, 130, 0);
+    display: inline-block;
+}
+.section2 .sns .insta a p {
+    color: #fff;
+}
+footer {
+    padding: 40px 0;
+    background-color: #ccc;
+}
+footer .inner-footer {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+footer .inner-footer ul {
+    
+    border-bottom: 1px solid #000;
+}
+footer .inner-footer ul li {
+    width: 14.6666%;
+    float: left;
+    margin-right: 2%;
+}
+footer .inner-footer ul li {
+    
+}
+footer .inner-footer ul li h4 {
+    color: rgb(243, 130, 0);
+    padding-bottom: 50px;
+}
+footer .inner-footer ul li div {}
+footer .inner-footer ul li div p {
+    margin-bottom: 5px;
+}
+footer .inner-footer ul li div p a {
+    display: block;
+}
+footer .inner-footer .links {
+    display: inline-block;
+    padding: 30px 0;
+}
+footer .inner-footer .links p {
+}
+footer .inner-footer .links .link-list {
+    padding-bottom: 20px;
+}
+footer .inner-footer .links .link-list p {
+    margin-right: 20px;
+    float: left;
+}
+footer .inner-footer .links .link-list p a {}
+footer .inner-footer .sns-box {
+    width: 200px;
+}
+footer .inner-footer .sns-box a {}
+footer .inner-footer .sns-box a img {}
